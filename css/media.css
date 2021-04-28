@@ -1,0 +1,1063 @@
+/* Moblile Screen 1 */
+@media (min-width:320px) and (max-width:575.98px) {
+
+    /* Header Start */
+    header {
+        padding: 2px 0;
+    }
+
+    .logo img {
+        padding: 8px 0px;
+        width: 100%;
+    }
+
+    #toggle {
+        display: inline-block;
+    }
+
+    label {
+        padding: 0;
+        font-size: 1.9rem;
+    }
+
+    nav ul {
+        margin-top: 20px;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(39, 38, 38);
+        position: fixed;
+        left: 100%;
+        transition: 0.5s;
+    }
+
+    nav ul li {
+        margin: 0;
+        display: block;
+        padding: 20px 0;
+    }
+
+    nav ul li:first-child {
+        margin-top: 20px;
+    }
+
+    nav ul li a {
+        color: #ffffff;
+    }
+
+    nav ul li:focus,
+    nav ul li:hover {
+        background-color: rgb(56, 54, 54);
+    }
+
+    /* Header End */
+    .banner_image {
+        padding: 53px 0;
+    }
+
+    .right {
+        line-height: 33px;
+        padding: 6px 0;
+    }
+
+    .right p {
+        font-size: 19px;
+    }
+
+    .banner_box {
+        margin-top: 20px;
+        top: 100%;
+    }
+
+    .banner_left {
+        padding: 20px 48px;
+    }
+
+    .time {
+        padding-top: 0px;
+        margin-top: 330px;
+    }
+
+    .time_left p {
+        text-align: center;
+        font-size: 38px;
+        padding: 38px 0 0px 0;
+    }
+
+    .time_right p {
+        padding: 19px 0;
+        font-size: 18px;
+        text-align: justify;
+        line-height: 34px;
+    }
+
+    .video {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .video_player video {
+        padding: 10px 10px 0 10px;
+    }
+
+    .getStarted {
+        padding: 20px 0;
+    }
+
+    .getStartedWrapper p {
+        line-height: 33px;
+        font-size: 21px
+    }
+
+    .getStartButton {
+        font-size: 26px;
+        padding: 13px 25px;
+    }
+
+    .sponsor {
+        padding: 20px 0;
+    }
+
+    .sponsor_para p {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .sponsor_calf {
+        padding: 34px 0 35px 0;
+    }
+
+    .accrodion_section {
+        padding: 20px 0;
+    }
+
+    .accrodion_head h3 {
+        margin-left: 57px;
+        font-size: 13px;
+    }
+
+    .accrodio_body p {
+        font-size: 13px;
+        text-align: justify;
+        line-height: 20px;
+    }
+
+    .open,.close {
+        padding: 2px 7px;
+    }
+
+    .fitness {
+        padding: 50px 0;
+    }
+
+    .fitness_section_title {
+        font-size: 15px;
+    }
+
+    .fitness_heading {
+        padding: 30px 0;
+    }
+
+    .fitness_heading h1 {
+        font-size: 31px;
+    }
+
+    .fitness_section_stripe ul {
+        padding-left: 0 !important;
+    }
+
+    .fitness_section_stripe ul li {
+        display: block;
+        font-size: 16px;
+    }
+
+
+    .fitness_section_stripe ul li span {
+        padding: 10px 72px;
+    }
+
+    .fitness_section_stripe ul li:first-child span {
+        padding-bottom: 7px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .fitness_section_stripe ul li:last-child span {
+        padding-top: 7px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .fitness_section_stripe_wrapper {
+        padding-bottom: 24px;
+    }
+
+    .fitness_section_para {
+        font-size: 12px;
+    }
+
+    .fitness_section_para_top {
+        margin-bottom: 14px;
+    }
+
+    .rule1 {
+        padding: 17px 0 30px 0;
+    }
+
+    .rule2 {
+        padding: 30px 0;
+    }
+
+    .rule3 {
+        padding: 30px 0;
+    }
+
+    .rule_head {
+        font-size: 32px;
+    }
+
+    .rule_para {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .product_head {
+        padding: 30px 0 25px 0;
+    }
+
+    .product_head h1 {
+        font-size: 40px;
+        margin-bottom: 8px;
+    }
+
+    .product_head p {
+        font-size: 15px;
+    }
+
+    .product_icon {
+        margin-top: 20px;
+    }
+
+    .product_icon i {
+        font-size: 44px;
+    }
+
+    .demos {
+        padding: 82px 0;
+    }
+
+    .see_video{
+        font-size: 19px;
+    }
+
+    .step {
+        padding: 30px 0 80px 0;
+    }
+
+    .stepHeadTop {
+        font-size: 35px;
+    }
+
+    .stepHeadMiddle {
+        margin-top: -7px;
+        font-size: 35px;
+    }
+
+    .stepHeadPara {
+        width: 86%;
+    }
+
+    .step_series {
+        margin-top: 46px;
+    }
+
+    .attention {
+        padding: 30px 0;
+    }
+
+    .attention_wrapper h1 {
+        font-size: 45px;
+    }
+
+    .attention_wrapper p {
+        font-size: 23px;
+        margin-top: 20px;
+    }
+
+    .attention_wrapper h3 {
+        font-size: 40px;
+        margin-top: 80px;
+    }
+
+    .footer {
+        padding: 30px 0 32px 0;
+    }
+
+    .footer_wrapper ul li {
+        display: block;
+        padding: 15px 0;
+    }
+
+    .footer_wrapper ul li a {
+        font-size: 20px;
+    }
+}
+
+/* Mobile Screen 2 */
+@media (min-width:576px) and (max-width:767.98px) {
+
+    /* Header Start */
+    #toggle {
+        display: inline-block;
+    }
+
+    label {
+        padding: 0;
+        font-size: 29px;
+    }
+
+    nav ul {
+        margin-top: 30px;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(39, 38, 38);
+        position: fixed;
+        left: 100%;
+        transition: 0.5s;
+    }
+
+    nav ul li {
+        margin: 0;
+        display: block;
+        padding: 30px 0;
+    }
+
+    nav ul li:first-child {
+        margin-top: 50px;
+    }
+
+    nav ul li a {
+        color: #ffffff;
+    }
+
+    nav ul li:focus,
+    nav ul li:hover {
+        background-color: rgb(56, 54, 54);
+    }
+
+
+    /* Header End */
+    .banner_image {
+        padding: 97px 0;
+    }
+
+    .right {
+        padding: 6px 0;
+    }
+
+    .banner_box {
+        margin-top: 50px;
+        top: 100%;
+    }
+
+    .banner_left {
+        padding: 35px 48px;
+    }
+
+    .time {
+        padding-top: 90px;
+        margin-top: 420px;
+    }
+
+    .time_left p {
+        text-align: center;
+        padding: 38px 0 0px 0;
+    }
+
+    .time_right p {
+        text-align: justify;
+        line-height: 50px;
+    }
+
+    .video {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .video_player video {
+        padding: 30px 30px 0 30px;
+    }
+
+    .getStarted {
+        padding: 50px 0;
+    }
+
+    .getStartedWrapper p {
+        line-height: 45px;
+        font-size: 30px;
+    }
+
+    .sponsor {
+        padding: 50px 0;
+    }
+
+    .sponsor_para p {
+        text-align: justify;
+    }
+
+    .accrodion_section {
+        padding: 50px 0;
+    }
+
+    .fitness {
+        padding: 50px 0;
+    }
+
+    .fitness_section_title {
+        font-size: 25px;
+    }
+
+    .fitness_heading {
+        padding: 50px 0;
+    }
+
+    .fitness_heading h1 {
+        font-size: 53px;
+    }
+
+    .fitness_section_stripe ul {
+        padding-left: 0 !important;
+    }
+    
+    .fitness_section_stripe ul li {
+        display: block;
+    }
+
+    .fitness_section_stripe ul li span {
+        padding: 10px 94px;
+    }
+
+    .fitness_section_stripe ul li:first-child span {
+        padding-bottom: 50px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .fitness_section_stripe ul li:last-child span {
+        padding-top: 50px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .fitness_section_stripe_wrapper {
+        padding-bottom: 50px;
+    }
+
+    .rule1 {
+        padding: 50px 0 80px 0;
+    }
+
+    .rule_head {
+        font-size: 45px;
+    }
+
+    .rule_para {
+        text-align: justify;
+    }
+
+    .product_head {
+        padding: 50px 0 25px 0;
+    }
+
+    .product_head h1 {
+        font-size: 70px;
+        margin-bottom: 20px;
+    }
+
+    .product_head p {
+        font-size: 21px;
+    }
+
+    .step {
+        padding: 50px 0 80px 0;
+    }
+
+    .stepHeadTop {
+        font-size: 63px;
+    }
+
+    .stepHeadMiddle {
+        font-size: 63px;
+    }
+
+    .stepHeadPara {
+        width: 86%;
+    }
+
+    .step_series {
+        margin-top: 80px;
+    }
+
+    .attention_wrapper h1 {
+        font-size: 70px;
+    }
+
+    .attention {
+        padding: 50px 0;
+    }
+
+    .attention_wrapper h1 {
+        font-size: 61px;
+    }
+
+    .attention_wrapper p {
+        margin-top: 20px;
+    }
+
+    .attention_wrapper h3 {
+        margin-top: 80px;
+    }
+
+    .footer {
+        padding: 40px 0 32px 0;
+    }
+
+    .footer_wrapper ul li {
+        display: block;
+        padding: 15px 0;
+    }
+}
+
+/* Tablet Screen */
+@media (min-width:768px) and (max-width:991.98px) {
+
+    /* Header Start */
+    #toggle {
+        display: inline-block;
+    }
+
+    nav ul {
+        margin-top: 30px;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(39, 38, 38);
+        position: fixed;
+        left: 100%;
+        transition: 0.5s;
+    }
+
+    nav ul li {
+        margin: 0;
+        display: block;
+        padding: 30px 0;
+    }
+
+    nav ul li:first-child {
+        margin-top: 50px;
+    }
+
+    nav ul li a {
+        color: #ffffff;
+    }
+
+    nav ul li:focus,
+    nav ul li:hover {
+        background-color: rgb(56, 54, 54);
+    }
+
+    /* Header End */
+    .banner_image {
+        padding: 97px 0;
+    }
+
+    .right {
+        padding: 51px 0;
+    }
+
+    .banner_box {
+        margin-top: 50px;
+        top: 100%;
+    }
+
+    .banner_left {
+        padding: 35px 48px;
+    }
+
+    .time {
+        margin-top: 420px;
+    }
+
+    .time_left p {
+        text-align: center;
+        padding: 38px 0 0px 0;
+    }
+
+    .time_right p {
+        text-align: justify;
+        line-height: 50px;
+    }
+
+    .video {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .video_player video {
+        padding: 30px 30px 0 30px;
+    }
+
+    .getStarted {
+        padding: 50px 0;
+    }
+
+    .getStartedWrapper p {
+        font-size: 40px;
+    }
+
+    .sponsor {
+        padding: 50px 0;
+    }
+
+    .sponsor_para p {
+        text-align: justify;
+    }
+
+    .accrodion_section {
+        padding: 50px 0;
+    }
+
+    .fitness {
+        padding: 50px 0;
+    }
+
+    .fitness_section_title {
+        font-size: 30px;
+    }
+
+    .fitness_heading {
+        padding: 50px 0;
+    }
+
+    .fitness_heading h1 {
+        font-size: 70px;
+    }
+
+    .fitness_section_stripe ul li:first-child span {
+        padding-bottom: 50px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .fitness_section_stripe ul li:last-child span {
+        padding-top: 50px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .fitness_section_stripe_wrapper {
+        padding-bottom: 50px;
+    }
+
+    .rule1 {
+        padding: 50px 0 80px 0;
+    }
+
+    .rule_para {
+        text-align: justify;
+    }
+
+    .product_head {
+        padding: 50px 0 25px 0;
+    }
+
+    .product_head h1 {
+        margin-bottom: 20px;
+    }
+
+    .product_head p {
+        font-size: 21px;
+    }
+
+    .step {
+        padding: 50px 0 80px 0;
+    }
+
+    .step_series {
+        margin-top: 80px;
+    }
+
+    .attention_wrapper h1 {
+        font-size: 70px;
+    }
+
+    .attention {
+        padding: 50px 0;
+    }
+
+    .attention_wrapper p {
+        margin-top: 20px;
+    }
+
+    .attention_wrapper h3 {
+        margin-top: 80px;
+    }
+
+    .footer {
+        padding: 40px 0 32px 0;
+    }
+
+    .footer_wrapper ul li {
+        display: block;
+        padding: 15px 0;
+    }
+
+}
+
+/* Pc screen - lg */
+@media (min-width:992px) and (max-width:1199.98px) {
+
+    /* header start */
+    nav ul {
+        padding: 7px 0;
+    }
+
+    /* header end */
+
+    /* banner box strat */
+    .banner_left {
+        padding: 22px 48px;
+    }
+
+    .middle {
+        width: 100%;
+        height: 178.4px;
+    }
+
+    .right p {
+        font-size: 21px;
+    }
+
+    /* banner box end */
+
+    /* Time Section strat */
+    .time {
+        padding-top: 150px;
+    }
+
+    .time_left p {
+        padding: 25px 0;
+        font-family: RobotoCondensed-Bold;
+        font-size: 35px;
+    }
+
+    .time_right p {
+        padding: 24px 0;
+        font-size: 18px;
+    }
+
+    /* Time Section end */
+    .video {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .getStarted {
+        padding: 50px 0;
+    }
+
+    .getStartedWrapper p {
+        font-size: 44px;
+    }
+
+    .sponsor {
+        padding: 70px 0;
+    }
+
+    .sponsor_para p {
+        font-size: 20px;
+    }
+
+    .accrodion_section {
+        padding: 0 0 70px 0;
+    }
+
+    .fitness {
+        padding: 70px 0;
+    }
+
+    .fitness_heading {
+        padding: 50px 0;
+    }
+
+    .fitness_section_title {
+        font-size: 38px;
+    }
+
+    .fitness_heading h1 {
+        font-family: RobotoCondensed-Bold;
+        font-size: 82px;
+    }
+
+    .fitness_section_stripe_wrapper {
+        padding-bottom: 70px;
+    }
+
+    .fitness_section_stripe {
+        padding: 17px 0;
+    }
+
+    .fitness_section_stripe ul li {
+        font-size: 27px;
+    }
+
+    .fitness_section_stripe ul li span {
+        padding: 10px 88px;
+    }
+
+    .fitness_section_para {
+        font-size: 22px;
+    }
+
+    .rule_head {
+        font-size: 43px;
+    }
+
+    .rule_para {
+        font-size: 18px;
+    }
+
+    .rule1 {
+        padding: 75px 0 50px 0;
+    }
+
+    .rule2 {
+        padding: 50px 0;
+    }
+
+    .rule3 {
+        padding: 50px 0;
+    }
+
+    .product_head {
+        padding: 60px 0 25px 0;
+    }
+
+    .product_head h1 {
+        margin-bottom: 29px;
+        font-size: 93px;
+    }
+
+    .product_head p {
+        font-size: 21px;
+    }
+
+    .see_video {
+        font-size: 30px;
+    }
+
+    .demos {
+        padding: 150px 0;
+    }
+
+    .step {
+        padding: 50px 0;
+    }
+
+    .stepHeadTop {
+        font-size: 63px;
+    }
+
+    .stepHeadMiddle {
+        margin-top: -9px;
+        font-size: 63px;
+    }
+
+    .stepHeadPara {
+        width: 64%;
+        margin: 7px auto;
+    }
+
+    .step_series {
+        margin-top: 80px;
+    }
+
+    .attention {
+        padding: 50px 0;
+    }
+
+    .attention_wrapper h1 {
+        font-size: 83px;
+    }
+
+    .attention_wrapper p {
+        margin-top: 30px;
+    }
+
+    .attention_wrapper h3 {
+        margin-top: 87px;
+    }
+
+    .footer_wrapper ul li a {
+        font-size: 23px;
+    }
+
+    .footer_wrapper ul li {
+        padding: 0px 12px;
+    }
+
+    .footer {
+        padding: 43px 0 21px 0;
+    }
+}
+
+/* Pc screen-xl */
+@media (min-width:1200px) and (max-width:1399.98px) {
+
+    /* header start */
+    nav ul {
+        padding: 11px 0;
+    }
+
+    /* header end */
+
+    /* banner box strat */
+    .right p {
+        font-size: 25px;
+    }
+
+    /* banner box end */
+
+    /* Time Section strat */
+    .time_left p {
+        padding: 27px 0;
+        font-family: RobotoCondensed-Bold;
+        font-size: 43px;
+    }
+
+    .time_right p {
+        padding: 26px 0;
+        font-size: 22px;
+    }
+
+    /* Time Section end */
+    .video {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .getStarted {
+        padding: 70px 0;
+    }
+
+    .getStartedWrapper p {
+        font-size: 53px;
+    }
+
+    .sponsor {
+        padding: 70px 0;
+    }
+
+    .sponsor_para p {
+        font-size: 24px;
+    }
+
+    .accrodion_section {
+        padding: 0 0 70px 0;
+    }
+
+    .fitness {
+        padding: 70px 0;
+    }
+
+    .fitness_heading {
+        padding: 60px 0;
+    }
+
+    .fitness_section_title {
+        font-size: 45px;
+    }
+
+    .fitness_heading h1 {
+        font-family: RobotoCondensed-Bold;
+        font-size: 98px;
+    }
+
+    .fitness_section_stripe_wrapper {
+        padding-bottom: 70px;
+    }
+
+    .fitness_section_stripe ul li span {
+        padding: 10px 88px;
+    }
+
+    .fitness_section_para {
+        font-size: 22px;
+    }
+
+    .rule_head {
+        font-size: 50px;
+    }
+
+    .rule_para {
+        font-size: 23px;
+    }
+
+    .rule1 {
+        padding: 75px 0 60px 0;
+    }
+
+    .rule2 {
+        padding: 60px 0;
+    }
+
+    .rule3 {
+        padding: 60px 0;
+    }
+
+    .product_head h1 {
+        margin-bottom: 29px;
+        font-size: 93px;
+    }
+
+    .product_head p {
+        font-size: 24px;
+    }
+
+    .step {
+        padding: 70px 0;
+    }
+
+    .step_series {
+        margin-top: 80px;
+    }
+
+    .attention {
+        padding: 70px 0;
+    }
+
+    .attention_wrapper h1 {
+        font-size: 100px;
+    }
+
+    .attention_wrapper p {
+        margin-top: 30px;
+    }
+
+    .attention_wrapper h3 {
+        margin-top: 100px;
+    }
+
+    .footer_wrapper ul li a {
+        font-size: 23px;
+    }
+
+    .footer_wrapper ul li {
+        padding: 0px 12px;
+    }
+
+    .footer {
+        padding: 43px 0 21px 0;
+    }
+}
